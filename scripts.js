@@ -325,7 +325,8 @@ function openPlayer(index) {
   // Wait for iframe to be fully rendered and visible
   requestAnimationFrame(() => {
     setTimeout(() => {
-      iframe.src = `https://player.twitch.tv/?channel=${stream.user_login}&parent=https://aliduraaws.github.io/twitchtopstreamer/&preload=auto&time=0s`;
+          const parent = window.location.hostname || 'localhost';
+      iframe.src = `https://player.twitch.tv/?channel=${stream.user_login}&parent=${parent}&preload=auto&time=0s`;
     }, 500);
   });
   
