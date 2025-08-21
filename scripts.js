@@ -326,7 +326,7 @@ function openPlayer(index) {
   requestAnimationFrame(() => {
     setTimeout(() => {
           const parent = window.location.hostname || 'localhost';
-      iframe.src = `https://player.twitch.tv/?channel=${stream.user_login}&parent=${parent}&preload=auto&time=0s`;
+      iframe.src = `https://player.twitch.tv/?channel=${stream.user_login}&parent=${parent}&autoplay=true&muted=true&preload=auto&time=0s`;
     }, 500);
   });
   
