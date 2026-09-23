@@ -1,5 +1,5 @@
 const clientId = 'gky3gvnl2o5v2x26xrw5i79hs17nrk';
-const accessToken = 'irutkvnwhfbja332jscoqzsrl9m46w'; // Must be valid Bearer token
+const accessToken = '57rc9ocwtumorrvlrmus2ylm5fiygo'; // Must be valid Bearer token
 //const clientId = 'YOUR_CLIENT_ID_HERE'; // Replace with your Twitch Client ID
 //const accessToken = 'YOUR_ACCESS_TOKEN_HERE'; // Replace with your Twitch Bearer Token
 const tableBody = document.querySelector('#streamers-table tbody');
